@@ -267,23 +267,6 @@ plt.plot(tap_series_all22[1])
 plt.plot( np.power(rest_series_all,3))   
 plt.plot( np.power(tap_series_all,3)) 
         
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ###############################################################################
@@ -334,55 +317,4 @@ for each_index_of_map3, color in zip(regions_indices_of_map3[0], colors):
                         cmap=plotting.cm.alpha_cmap(color))
 
 plotting.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
