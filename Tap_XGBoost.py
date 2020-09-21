@@ -1,3 +1,7 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
 tap_series_all22=pd.DataFrame(tap_series_all22)
 rest_series_all22=pd.DataFrame(rest_series_all22)
 
@@ -91,20 +95,3 @@ feature_imp_sorted= acs_frame.sort_values(by=0, ascending=False)
 
 A=feature_imp_sorted.iloc[:,1].values
 A.astype(int)
-
-
-
-65,  1,  3,  0, 66,  2, 31, 20, 25,  5,  9, 16, 12, 59, 19,  6, 26,
-       48, 22, 56, 52, 28, 30, 51, 50, 53, 61, 35, 64,  7, 60, 34, 36, 27,
-       17, 10, 55, 15,  8, 46,  4, 63, 18, 62, 32, 13, 44, 29, 40, 21, 42,
-       38, 23, 49, 39, 58, 54, 45, 33, 57, 47, 24, 41, 37, 11, 43, 14
-
-65,  1, 34, 16,  0, 20,  2, 66,  3, 25, 36,  7, 59, 26, 15, 35, 17,
-        5,  6, 51, 19, 47, 31, 48, 33, 56, 53, 63, 60, 21, 61, 27, 44, 13,
-       22, 49, 43, 10, 52, 55, 28, 64, 62,  8, 18, 50, 32, 11, 42, 54, 57,
-       58, 24,  9, 12, 23,  4, 46, 29, 30, 39, 14, 37, 40, 38, 45
-
-
-
-
-
